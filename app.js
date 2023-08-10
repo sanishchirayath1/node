@@ -46,6 +46,7 @@ magicString.prototype = {
 
 const magic = new magicString("I am learning how to implement method chaining");
 
+/* Usage */
 console.log('Length: ',magic.length());
 console.log('Reversed string', magic.reverse());
 console.log("Uppercased string", magic.upperCase());
